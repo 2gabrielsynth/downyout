@@ -3,8 +3,15 @@ from pytube import YouTube
 import os
 
 def main():
-    st.title("Download de Vídeo do YouTube")
-    st.write("Cole o link do vídeo do YouTube abaixo:")
+    #st.title("Download de Vídeo do YouTube")
+    logo_img = "imgs//yout.png"
+    st.image(logo_img,use_column_width=True,width=5)
+    #st.image(logo_img, width=300)
+    
+    
+    st.markdown("<h2 style='color:indianred; font-size: 3em;'>YouTube -  Mp4</h2>", unsafe_allow_html=True)
+    #st.markdown("<h2 style='color:dimgrey; font-size: 1.5em;'>Desenvolvido por Gabriel Machado</h2>", unsafe_allow_html=True)
+    st.write("Desenvolvido por: Gabriel Machado")
 
     # Campo de entrada para o link do vídeo
     video_url = st.text_input("URL do vídeo do YouTube")
