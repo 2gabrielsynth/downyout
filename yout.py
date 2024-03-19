@@ -4,7 +4,7 @@ import os
 
 def main():
     #st.title("Download de Vídeo do YouTube")
-    logo_img = "imgs//yout.png"
+    logo_img = "yout.png"
     st.image(logo_img,use_column_width=True,width=5)
     #st.image(logo_img, width=300)
     
